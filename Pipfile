@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "==0.115.6"
+pymongo = "*"
+uvicorn = "==0.32.1"
+motor = "==3.6.0"
+pydantic-settings = "==2.2.1"
+pydantic = "==2.6.4"
+requests = "==2.32.3"
+
+[dev-packages]
+pytest = "==8.3.4"
+
+[requires]
+python_version = "3.12"
+
