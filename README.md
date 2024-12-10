@@ -3,6 +3,8 @@
 
 Brief description of the project.
 
+### The .env file has been intentionally added to the repository as it does not contain any sensitive information. It is meant for the quick familiarization of the employer with the application settings and to facilitate the testing process.
+
 ## Description
 
 This web application is designed to identify filled forms based on templates stored in a database. The application accepts a list of fields with values in the body of a POST request and returns the name of the form that best matches the provided list of fields. If a matching form is not found, the application performs on-the-fly typing of the fields and returns a list of fields with their types.
